@@ -1,7 +1,9 @@
+require 'location'
+
 class Printer
-  def initialize(maze)
+  def initialize(maze, size)
     @maze = maze
-    @size = maze.size
+    @size = size
   end
 
   def print
